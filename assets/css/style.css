@@ -1,36 +1,55 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-h1 { font-size: 40px; }
-h2 { font-size: 30px; }
-h3 { font-size: 22px; }
-h4 { font-size: 16px; }
-h5 { font-size: 12px; }
-h6 { font-size: 10px; }
-p { font-size: 18px; }
-
-body{
-  background-color: #00010D;
-  font-family: 'Montserrat', sans-serif;
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 22px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 12px;
+}
+h6 {
+  font-size: 10px;
+}
+p {
+  font-size: 18px;
 }
 
-h1,h2,h3,h4,h5,h6{
-  font-family: 'Suez One', serif;
+body {
+  background-color: #00010d;
+  font-family: "Montserrat", sans-serif;
 }
 
-.heading-font{
-  font-family: 'Suez One', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Suez One", serif;
 }
 
-.shadow{
-  box-shadow: 5px 5px 10px rgba(0,0,0,.8)
+.heading-font {
+  font-family: "Suez One", serif;
 }
 
-.container{
-  background-color: rgba(255,255,255,0.9);
+.shadow {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
   display: flex;
   flex-direction: column;
   max-width: 960px;
@@ -38,80 +57,81 @@ h1,h2,h3,h4,h5,h6{
   padding: 1em;
 }
 
-.headContainer{
+.headContainer {
   width: 100%;
   position: relative;
   text-align: center;
   margin-bottom: 3em;
 }
 
-.headShot{
+.headShot {
   overflow: hidden;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
 }
 
-.headContainer img{
-  width: 100%;
-  transition: transform .2s;
+.headContainer img {
+  width: 25%;
 }
 
-.headContainer img:hover{
-  transform: scale(1.05);
-}
-
-.intro{
-  background-color: #00010D;
-  color: rgba(255,255,255,0.9);
+.intro {
+  background-color: #00010d;
+  color: rgba(255, 255, 255, 0.9);
   position: absolute;
   top: 97%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.links{
+.links {
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-top: 2em;
 }
 
-.link-group{
+.link-group {
   width: 25%;
 }
 
-.link-group a{
+.link-group a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #00010D;
-  color: rgba(255,255,255,0.9);
+  background-color: #00010d;
+  color: rgba(255, 255, 255, 0.9);
   width: 100%;
   text-decoration: none;
   cursor: pointer;
-  padding: .5em;
-  transition: transform .2s;
+  padding: 0.5em;
+  transition: transform 0.2s;
 }
 
-.link-group a:hover{
+.link-group a:hover {
   transform: scale(1.05);
 }
 
-.link-group i{
+.link-group i {
   font-size: 2em;
 }
 
-.bio{
+.bio {
   width: 100%;
 }
 
-.bio p{
-  padding-top: .5em;
+.bio p {
+  padding-top: 0.5em;
 }
 
-.portfolio{
+.portfolio {
   margin-top: 2em;
 }
 
-.portfolio-container{
+.portfolio-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -119,57 +139,56 @@ h1,h2,h3,h4,h5,h6{
   margin-top: 1em;
 }
 
-.portfolio-item{
+.portfolio-item {
   width: 49%;
   display: flex;
   flex-direction: column;
-  background-color: #00010D;
-  color: rgba(255,255,255,0.9);
+  background-color: #00010d;
+  color: rgba(255, 255, 255, 0.9);
   padding: 1em;
   margin-bottom: 1em;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
-.portfolio-item:hover{
+.portfolio-item:hover {
   transform: scale(1.05);
 }
 
 .portfolio-item p {
-  padding: .5em 0;
+  padding: 0.5em 0;
 }
 
-.portfolio-item p:first-child{
+.portfolio-item p:first-child {
   text-align: center;
   font-size: 1.25em;
   padding-top: 0;
 }
 
-.porfolio-item p:last-child{
+.porfolio-item p:last-child {
   padding-bottom: 0;
 }
 
-.portfolio-item img{
+.portfolio-item img {
   width: 100%;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
-.portfolio-image-container{
+.portfolio-image-container {
   width: 100%;
   overflow: hidden;
 }
 
-.portfolio-item-link-container{
+.portfolio-item-link-container {
   display: flex;
   justify-content: space-between;
 }
 
-.portfolio-item-link{
-  color: rgba(255,255,255,0.9);
+.portfolio-item-link {
+  color: rgba(255, 255, 255, 0.9);
   font-weight: bolder;
   text-decoration: underline;
 }
 
-.portfolio-item a{
+.portfolio-item a {
   cursor: pointer;
 }
-

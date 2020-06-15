@@ -1,4 +1,7 @@
 @media (max-width: 785px){
+  .headShot img{
+    width: 35%;
+  }
   .link-group{
     width: 31%;
   }
@@ -33,10 +36,16 @@
   .intro{
     width: 66.6%;
   }
+  .headShot img{
+    width: 50%;
+  }
 }
 
 @media (max-width: 400px){
   .intro{
     width: 90%;
+  }
+  .headShot img{
+    width: 80%;
   }
 }
