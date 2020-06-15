@@ -1,0 +1,174 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 { font-size: 40px; }
+h2 { font-size: 30px; }
+h3 { font-size: 22px; }
+h4 { font-size: 16px; }
+h5 { font-size: 12px; }
+h6 { font-size: 10px; }
+p { font-size: 18px; }
+
+body{
+  background-color: #F5F5F5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Suez One', serif;
+}
+
+.heading-font{
+  font-family: 'Suez One', serif;
+}
+
+.shadow{
+  box-shadow: 5px 5px 10px rgba(0,0,0,.8)
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: auto;
+  padding: 0 1em;
+}
+
+.headContainer{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.headShot{
+  overflow: hidden;
+}
+
+.headContainer img{
+  width: 100%;
+  transition: transform .2s;
+}
+
+.headContainer img:hover{
+  transform: scale(1.05);
+}
+
+.intro{
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.links{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.link-group{
+  width: 25%;
+}
+
+.link-group a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  padding: .5em;
+  transition: transform .2s;
+}
+
+.link-group a:hover{
+  transform: scale(1.05);
+}
+
+.link-group i{
+  font-size: 2em;
+}
+
+.bio{
+  width: 100%;
+}
+
+.bio p{
+  padding-top: .5em;
+}
+
+.portfolio{
+  margin-top: 2em;
+}
+
+.portfolio-container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.portfolio-item{
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 1em;
+  margin-bottom: 1em;
+  transition: transform .2s;
+}
+
+.portfolio-item:hover{
+  transform: scale(1.05);
+}
+
+.portfolio-item p {
+  padding: .5em 0;
+}
+
+.portfolio-item p:first-child{
+  text-align: center;
+  font-size: 1.25em;
+  padding-top: 0;
+}
+
+.porfolio-item p:last-child{
+  padding-bottom: 0;
+}
+
+.portfolio-item img{
+  width: 100%;
+  transition: transform .2s;
+}
+
+.portfolio-image-container{
+  width: 100%;
+  overflow: hidden;
+}
+
+.portfolio-item-link-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-item-link{
+  color: white;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.portfolio-item a{
+  cursor: pointer;
+}
+
