@@ -58,8 +58,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .intro{
-  background-color: black;
-  color: white;
+  background-color: rgba(0,0,0,0.9);
+  color: rgba(255,255,255,0.9);
   position: absolute;
   top: 97%;
   left: 50%;
@@ -81,8 +81,8 @@ h1,h2,h3,h4,h5,h6{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
-  color: white;
+  background-color: rgba(0,0,0,0.9);
+  color: rgba(255,255,255,0.9);
   width: 100%;
   text-decoration: none;
   cursor: pointer;
@@ -122,8 +122,8 @@ h1,h2,h3,h4,h5,h6{
   width: 49%;
   display: flex;
   flex-direction: column;
-  background-color: black;
-  color: white;
+  background-color: rgba(0,0,0,0.9);
+  color: rgba(255,255,255,0.9);
   padding: 1em;
   margin-bottom: 1em;
   transition: transform .2s;
@@ -163,7 +163,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .portfolio-item-link{
-  color: white;
+  color: rgba(255,255,255,0.9);
   font-weight: bolder;
   text-decoration: underline;
 }
